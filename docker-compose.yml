@@ -1,0 +1,13 @@
+version: "3"
+services:
+  tanglenet:
+    build: .
+    command: ["pm2-docker", "./dist/index.js"]
+    env_file:
+     - ./.env
+    ports:
+     - "3000:3000"
+    depends_on:
+     - redis
+  redis:
+    image: "redis:alpine"

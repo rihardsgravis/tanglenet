@@ -1,0 +1,12 @@
+{
+   "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "alwaysStrict": true
+   },
+   "compileOnSave": false,
+   "buildOnSave": false
+}
