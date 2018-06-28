@@ -1,4 +1,4 @@
-# tanglenet
+# DEPRECATED: tanglenet
 ### IOTA's Tangle as a web platform
 This is a basic __proof of concept__ to show how [IOTA's Tangle](https://github.com/iotaledger) can be used as a platform for decentralized, secure and free to distribute web applications.
 
